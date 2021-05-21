@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background-color: hsl(185, 75%, 39%);
 }
 
 /* Card Section */
@@ -8,6 +9,8 @@ body {
 .card {
   margin: auto;
   padding: 0;
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px;
 }
 
 /* Top Image */
@@ -22,12 +25,49 @@ body {
 
 .card-img {
   width: 100%;
+  border-radius: 15px 15px 0 0;
 }
+
+.profile-img {
+  border-radius: 50%;
+  position: absolute;
+  top: 8rem;
+  left: 11rem;
+  border: 5px solid white;
+}
+
+.heading-text h4 {
+  padding-top: 5rem;
+  font-weight: bold;
+}
+
+span {
+  opacity: 70%;
+  font-weight: lighter;
+}
+
+.heading-text p {
+  opacity: 70%;
+  font-weight: lighter;
+}
+
+/* Stats Section */
+.stats-heading {
+  font-weight: bold;
+}
+
+.stats-description {
+  font-size: 0.8rem;
+  opacity: 70%;
+  letter-spacing: 1px;
+}
+/* Bottom Image */
 
 .bottom-img {
   position: relative;
   top: 30rem;
   right: 15rem;
+  z-index: -1;
 }
 .attribution {
   font-size: 11px;
