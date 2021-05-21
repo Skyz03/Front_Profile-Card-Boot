@@ -1,23 +1,27 @@
 body {
-  font-family: sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   text-align: center;
   background-color: hsl(185, 75%, 39%);
 }
 
 /* Card Section */
 
+p {
+  font-size: 0.8rem;
+}
+
 .card {
   margin: auto;
   padding: 0;
   border-radius: 15px;
-  box-shadow: 1px 5px 5px;
+  /* box-shadow: 1px 5px 5px; */
 }
 
 /* Top Image */
 
 .top-img {
   position: relative;
-  bottom: 20rem;
+  bottom: 24rem;
   right: 20rem;
 }
 
@@ -31,14 +35,15 @@ body {
 .profile-img {
   border-radius: 50%;
   position: absolute;
-  top: 8rem;
-  left: 11rem;
+  top: 5rem;
+  left: 7.5rem;
   border: 5px solid white;
 }
 
-.heading-text h4 {
-  padding-top: 5rem;
+.heading-text h6 {
+  padding-top: 4.5rem;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 span {
@@ -52,14 +57,27 @@ span {
 }
 
 /* Stats Section */
+.stats-section {
+  text-align: center;
+}
 .stats-heading {
   font-weight: bold;
 }
 
 .stats-description {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   opacity: 70%;
   letter-spacing: 1px;
+}
+
+#followers {
+  padding-right: 0;
+  padding-left: 3.5rem;
+}
+
+#photos {
+  padding-left: 0;
+  padding-right: 3.5rem;
 }
 /* Bottom Image */
 
