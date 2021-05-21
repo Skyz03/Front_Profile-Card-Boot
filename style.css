@@ -3,16 +3,31 @@ body {
   text-align: center;
 }
 
+/* Card Section */
+
 .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  padding: 0;
+}
+
+/* Top Image */
+
+.top-img {
+  position: relative;
+  bottom: 20rem;
+  right: 20rem;
 }
 
 /* Heading Section  */
 
 .card-img {
   width: 100%;
+}
+
+.bottom-img {
+  position: relative;
+  top: 30rem;
+  right: 15rem;
 }
 .attribution {
   font-size: 11px;
