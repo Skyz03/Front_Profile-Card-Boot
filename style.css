@@ -87,6 +87,54 @@ span {
   right: 15rem;
   z-index: -1;
 }
+
+@media screen and (max-width: 640px) {
+  .top-img {
+    position: relative;
+    bottom: -20rem;
+    right: 50rem;
+  }
+
+  .card {
+    margin: 4rem;
+    padding: 0;
+    border-radius: 15px;
+  }
+  .profile-img {
+    border-radius: 50%;
+    position: absolute;
+    top: 5rem;
+    left: 7rem;
+    border: 5px solid white;
+  }
+
+  .stats-card {
+    display: flex;
+    padding-left: 5.5rem;
+  }
+
+  #followers {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #photos {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-lg-4 {
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .bottom-img {
+    position: relative;
+    top: -20rem;
+    right: -10rem;
+    z-index: -1;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
