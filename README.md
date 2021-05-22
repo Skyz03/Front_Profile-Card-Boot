@@ -25,8 +25,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided in the design folder.
 
 ### Screenshot
-
-![image](https://user-images.githubusercontent.com/42742924/119218823-1fa27000-bb02-11eb-9f88-b2a0e00476ee.png)
+![image](https://user-images.githubusercontent.com/42742924/119219112-870cef80-bb03-11eb-903a-5bbf8e1023d8.png)
 ![image](https://user-images.githubusercontent.com/42742924/119218869-3d6fd500-bb02-11eb-8ba4-673a332a57fe.png)
 
 
